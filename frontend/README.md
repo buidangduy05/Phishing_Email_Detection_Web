@@ -27,3 +27,6 @@ file in the `file` field. The service should return JSON containing a boolean
 an object with `title`/`name` and optional `description`/`detail` fields.
 An optional `summary` string is also displayed. `is_phishing` and `phishing`
 are accepted as alternatives to `isPhishing`.
+
+The FastAPI backend lives in `../backend`. See its README for setup, model
+artifact requirements, and the `/health` endpoint.
